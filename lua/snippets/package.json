@@ -1,0 +1,22 @@
+{
+  "name": "user-snippets",
+  "engines": {
+    "vscode": "^1.11.0"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": ["shellscript", "shell", "sh", "zsh"],
+        "path": "./shell.json"
+      },
+      {
+        "language": ["json"],
+        "path": "./json.json"
+      },
+      {
+        "language": ["python", "python3"],
+        "path": "./python.json"
+      }
+    ]
+  }
+}

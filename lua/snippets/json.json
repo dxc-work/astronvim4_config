@@ -1,0 +1,17 @@
+{
+  "obj": {
+    "prefix": ["obj"],
+    "body": ["\"${1}\": {", "\t${2}", "},"],
+    "description": ["JSON Object"]
+  },
+  "array": {
+    "prefix": ["array"],
+    "body": ["\"${1}\": [", "\t${2}", "],"],
+    "description": ["JSON Object"]
+  },
+  "key": {
+    "prefix": ["key"],
+    "body": ["\"${1}\": \"${2}\","],
+    "description": ["JSON Object"]
+  }
+}
